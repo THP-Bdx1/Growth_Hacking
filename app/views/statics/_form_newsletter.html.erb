@@ -1,0 +1,27 @@
+
+<div class=texte_newsletter>
+<p>Si le concept THP vous interesse vous pouvez renseigner votre email ci-dessous pour vous abonner à la newsletter</p> 
+</div>
+<div class=form_newsletter>
+<form class="form-inline" action="">
+  <div class="form-group mb-2">
+    <label for="email">Votre adresse email:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+</form>
+</div>
+
+
+<%= form_tag("/", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+<div class="schlag">
+  <%= form_tag(root_path, method: :get) do %>
+  <%= email_field_tag :email %>
+  <%= submit_tag 'Souscrire à la newsletter', name: nil %>
+  <% end %>
+</div>
