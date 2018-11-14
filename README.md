@@ -1,24 +1,42 @@
-# README
+# THE HACKING PROJECT
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
+## EXPLICATIONS
 
-Things you may want to cover:
+#### Choix du Design
 
-* Ruby version
+#### Structure du Code
 
-* System dependencies
+#### Choix des éléments
 
-* Configuration
+---
+## ACQUISITION
 
-* Database creation
+#### Ce qui a été fait
 
-* Database initialization
+#### Public ciblé
 
-* How to run the test suite
+---
+## METRICS
 
-* Services (job queues, cache servers, search engines, etc.)
+---
+## PISTES D'AMELIORATION
 
-* Deployment instructions
+---
+## EQUIPE
 
-* ...
+### François FLOUS
+######
+
+### Paul GUERIN
+######
+
+### William HOREL
+######
+
+### Valérian MICHELOT
+######
+
+### David RANGEARD
+######
