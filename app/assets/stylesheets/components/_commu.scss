@@ -1,0 +1,32 @@
+.commu {
+    height    : 500px;
+    background: linear-gradient(165deg, rgba(0, 101, 168, 0.5) 0%, rgba(0, 36, 61, 0.5) 50%),
+    image-url('Commu.png');
+    background-size: cover;
+    color          : white;
+
+    background-position-y: 30%;
+    min-height           : 500px;
+    background-repeat    : no-repeat;
+
+}
+
+.commu ul {
+    padding-top    : 150px;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+
+.commu li {
+        font-family: 
+        'Muli',
+sans-serif,
+'Oxygen',
+sans-serif,
+'PT Sans',
+sans-serif;
+font-size: 14pt;
+}

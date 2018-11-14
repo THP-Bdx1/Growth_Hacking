@@ -1,0 +1,38 @@
+.between {
+        width                : 100%;
+        padding              : 3%;
+        height               : 100%;
+        background           : white;
+        background-size      : cover;
+        color                : black;
+        background-attachment: fixed;
+        background-position  : center;
+        min-height           : 100%;
+        background-repeat    : no-repeat;
+}
+
+.between img{
+    width        : 100%;
+    border-radius: 2%;
+    box-shadow   : 1px 1px 12px #555;
+}
+
+.between .container .row h2 {
+    text-align : center;
+    font-family: 'Poppins',
+    	sans-serif;
+    	font-size  : 35pt;
+    	font-weight: bold
+}
+
+.between .container .row p {
+text-align: justify;
+
+    font-family: 'Muli',
+    sans-serif,
+    'Oxygen',
+    sans-serif,
+    'PT Sans',
+    sans-serif;
+    font-size: 12pt;
+}

@@ -1,0 +1,48 @@
+.learning {
+    width      : 100%;
+    padding-top: 50px;
+    background : linear-gradient(165deg, rgba(0, 101, 168, 0.5) 0%, rgba(0, 36, 61, 0.5) 50%),
+        image-url('coding2.jpg');
+    background-size      : cover;
+    color                : white;
+    text-align           : center;
+    background-attachment: fixed;
+    background-position  : center;
+    background-repeat    : no-repeat;
+}
+
+.learning h2,
+.html_learn h2 {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 35pt;
+    font-weight: bold
+}
+
+.learning h3,
+.html_learn h3 {
+    padding-top: 20px;
+
+    font-family:
+        'Muli',
+        sans-serif,
+        'Oxygen',
+        sans-serif,
+        'PT Sans',
+        sans-serif;
+    font-size: 20pt;
+}
+
+.learning li,
+.html_learn li {
+    padding-top: 20px;
+
+    font-family:
+        'Muli',
+        sans-serif,
+        'Oxygen',
+        sans-serif,
+        'PT Sans',
+        sans-serif;
+    font-size: 15pt;
+}
