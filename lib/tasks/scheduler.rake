@@ -1,6 +1,6 @@
 desc "This task is called by the Heroku scheduler add-on"
 task :newsletter => :environment do
-  if Date.today ==15 || ==1
+  if Date.today.day ==15 || ==1
   ContactMailer.new.newsletter
   end
 end
