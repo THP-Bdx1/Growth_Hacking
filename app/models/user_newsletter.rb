@@ -1,2 +1,0 @@
-class UserNewsletter < ApplicationRecord
-end

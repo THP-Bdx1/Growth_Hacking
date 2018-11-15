@@ -15,11 +15,29 @@
     padding-top: 3%;
 }
 
+.testimony {
+    width         : 100%;
+    height        : 100%;
+    padding-top   : 5%;
+    padding-bottom: 5%;
+    background    : linear-gradient(165deg, rgba(0, 101, 168, 0.3) 0%, rgba(0, 36, 61, 0.3) 50%),
+        image-url('students.jpg');
+    background-size: cover;
+    color          : white;
+    text-align     : center;
+
+    background-attachment: fixed;
+    background-position  : center;
+    min-height           : 100%;
+    background-repeat    : no-repeat;
+
+}
+
 .docScroller {
-    background                : url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/fir-sm.jpg");
-    background-size           : 400px 400px;
-    width                     : 100vw;
-    height                    : 100vh;
+    background                : white;
+    background-size           : cover;
+    width                     : 100%;
+    height                    : 100%;
     margin                    : 0;
     padding                   : 0;
     white-space               : nowrap;
@@ -33,8 +51,6 @@
 }
 
 .page {
-    scroll-snap-align: start;
-
     width         : 100%;
     height        : 100%;
     display       : inline-block;
@@ -43,23 +59,13 @@
 }
 
 .inside {
-    border    : 5px solid #f4ccbf;
-    opacity   : 0.95;
-    width     : 90vw;
-    margin    : 8vh 0 0 5vw;
-    height    : 80vh;
+    width     : 100%;
+    margin    : 3% 3% 3% 3%;
+    height    : 100%;
     position  : relative;
     overflow  : hidden;
     transition: all 0.3s ease-out;
 
-    h1 {
-        opacity   : 0.9;
-        text-align: center;
-        margin-top: 30vh;
-        font-size : 3vw;
-        background: #478e85;
-        padding   : 8px 0 10px;
-    }
 }
 
 .one {
@@ -83,13 +89,4 @@
     background         : white no-repeat;
     background-size    : cover;
     background-position: center center;
-}
-
-svg {
-    position      : absolute;
-    height        : 100vh;
-    width         : 100vw;
-    opacity       : 0.5;
-    pointer-events: none;
-
 }

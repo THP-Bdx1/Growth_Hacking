@@ -2,8 +2,6 @@
 
 one:
   email: MyString
-  category: MyString
 
 two:
   email: MyString
-  category: MyString

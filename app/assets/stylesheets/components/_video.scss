@@ -1,0 +1,8 @@
+.video-container iframe {
+-webkit-mask-image   : -webkit-radial-gradient(circle, white 100%, black 100%);
+-webkit-transform    : rotate(0.000001deg);
+-webkit-border-radius: 10px;
+-moz-border-radius   : 10px;
+border-radius        : 10px;
+overflow             : hidden;
+}
