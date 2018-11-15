@@ -1,18 +1,17 @@
 .THPwhy {
         width                : 100%;
-        height               : 500px;
+        height               : 100%;
         background           : white;
         background-size      : cover;
         color                : black;
         background-attachment: fixed;
         background-position  : center;
-        min-height           : 500px;
+        min-height           : 100%;
         background-repeat    : no-repeat;
+        margin-top           : 5%;
+        margin-bottom        : 5%
 }
 
-.THPwhycontainer {
-    padding-top: 45px;
-}
 
 .THPwhy img {
     box-shadow   : 1px 1px 12px #555;
