@@ -1,5 +1,9 @@
 # THE HACKING PROJECT
 ---
+# THE PROJECT
+
+[Le lien du projet MAGGLE](
+https://coding-education.herokuapp.com/)
 
 ---
 ## EXPLICATIONS
