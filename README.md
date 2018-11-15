@@ -44,3 +44,24 @@ https://coding-education.herokuapp.com/)
 
 ### David RANGEARD
 ######
+
+
+
+- Template Responsive : adapter au mobile device
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4">
+        ...
+      </div>
+    </div>
+  </div>
+- Réadapter dans bons dossiers/fichiers
+- Gérer la taille des images
+- 2 autres Landing Pages :
+    - étudiants
+    - Bordeaux
+- Métrics/tracking --> 
+- Service mailer --> Paul
+- Opérations marketings 
+    - Twitter --> François
+    - ? --> Val
