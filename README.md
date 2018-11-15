@@ -38,7 +38,7 @@ Le bot LinkedIn, dû aux refontes des droits API il y a quelques années par le 
 ---
 ## SCHEDULER
 
-Les bots Twitter, LinkedIn, et la newsletter, ont été programmé sur Heroku.
+Les bots Twitter, LinkedIn, et la newsletter, ont été programmé sur Heroku, via le fichier scheduler.rake contenu dans /lib/tasks
 
 ---
 ## TESTS
