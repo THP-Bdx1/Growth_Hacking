@@ -9,6 +9,7 @@ task :twitter_bot => :environment do
   if Date.today.month.even? && Date.today.day==1
   Twitterbot.new.perform
   end
+end
 
 task :linkedin_status => :environment do
   if Date.today.day == 1 
@@ -17,4 +18,4 @@ task :linkedin_status => :environment do
     end
   end
 end
-end
+
