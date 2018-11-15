@@ -6,12 +6,15 @@ task :newsletter => :environment do
 end
 
 task :twitter_bot => :environment do
-  if Date.today.month.even? || Date.today.day==1
+  if Date.today.month.even? && Date.today.day==1
   Twitterbot.new.perform
   end
 
 task :linkedin_status => :environment do
-  
-  Linkedin.perform
+  if Date.today.day == 1 
+    if Date.today.month == 3 || Date.today.month == 6 || Date.today.month == 9 || Date.today.month == 12 
+    Linkedin.perform
+    end
+  end
 end
-end
+
