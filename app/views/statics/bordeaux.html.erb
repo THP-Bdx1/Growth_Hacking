@@ -1,3 +1,10 @@
+<% flash.each do |type, message| %>
+<div class="alert <%= bootstrap_class_for(type) %> alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <%= message %>
+</div>
+<% end %>
+
 <div class="banner-bordeaux">
     <h1>Apprendre à coder en 3 mois</h1><br>
     <p>The Hacking Project, l'éducation en peer-learning ! <br>

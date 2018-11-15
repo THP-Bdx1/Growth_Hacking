@@ -1,5 +1,5 @@
 # THE HACKING PROJECT
-
+![THP-BDX-LOGO](http://image.noelshack.com/fichiers/2018/45/1/1541412703-thpbdx1.png)
 ---
 # THE PROJECT
 
@@ -20,12 +20,15 @@ Les visiteurs sont redirigés depuis Twitter et LinkedIn sur la Landing Page leu
 
 #### Ce qui a été fait
 
-* En utilisant un compte Twitter, nous récupérons les Twitter de plusieurs journalistes pour les mentionner dans un statut invitant à se rendre sur la Landing Page correspondant
-* En utilisant un compte LinkedIn, nous ajoutons les profils intéressants pour la formation, puis nous publions régulièrement un statut invitant à se rendre sur la Landing Page correspondant
-* Chacune des Landing Page contient un formulaire afin de s'inscrire à notre Newsletter
+* En utilisant un compte Twitter, nous récupérons les Twitter de plusieurs journalistes pour les mentionner dans un statut invitant à se rendre sur la Landing Page correspondante.
+* En utilisant un compte LinkedIn, nous publions régulièrement un statut invitant à se rendre sur la Landing Page correspondante.
+* Chacune des Landing Page contient un formulaire afin de s'inscrire à notre Newsletter !
 
 ---
 ## METRICS
+
+Ils sont plutôt cools, sauf quand tu n'as pas de données.
+Les lignes cheloues contenues dans la balise <script type="text/javascript"> du <head> du application.html.erb contiennent un petit script OKLM, qui permettent d'exploiter les données sur [Analytics](https://analytics.amplitude.com/obrooks/settings/projects).
 
 ---
 ## PISTES D'AMELIORATION
@@ -33,8 +36,13 @@ Les visiteurs sont redirigés depuis Twitter et LinkedIn sur la Landing Page leu
 Le bot LinkedIn, dû aux refontes des droits API il y a quelques années par le site, ne peut malheureusement que publier des statuts, les autorisations pour suivre les gens et commenter ayant été retirées... Il faudrait donc s'orienter vers une autre solution (YouTube, ou scrapping de mail comme commencé initialement).
 
 ---
+## SCHEDULER
+
+Les bots Twitter, LinkedIn, et la newsletter, ont été programmé sur Heroku.
+
+---
 ## TESTS
-Pour lancer le test : "rspec"
+Pour lancer le test : press "rspec" 👌
 ---
 ## EQUIPE
 
@@ -44,15 +52,17 @@ Pour lancer le test : "rspec"
 
 ### Paul GUERIN
 ###### frontend (Landing Page - Home)
-###### backend (Mailchimp)
+###### backend (OP Marketing Twitter)
 ###### backend (Mailer)
 
 ### William HOREL
 ###### frontend (Landing Page - Home)
 ###### frontend (Landing Page - Bordeaux)
+###### tests
 
 ### Valérian MICHELOT
 ###### backend (OP Marketing LinkedIn)
+###### backend (OP Marketing Twitter)
 ###### backend (Mailer)
 
 ### David RANGEARD

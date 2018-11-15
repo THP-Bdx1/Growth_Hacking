@@ -25,6 +25,6 @@ class StaticsController < ApplicationController
       ContactMailer.welcomeemail(params[:user][:email]).deliver_later
       flash[:success] = "Inscription réalisée"
     end
-    redirect_to '/'
+    redirect_to request.referrer
   end  
 end
