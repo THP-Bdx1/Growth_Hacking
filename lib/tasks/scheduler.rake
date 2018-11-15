@@ -17,4 +17,4 @@ task :linkedin_status => :environment do
     end
   end
 end
-
+end
